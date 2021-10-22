@@ -5,7 +5,7 @@ class AddressController < ApplicationController
   end
 
   def new
-    @zipcode = Zip.new
+    @zip = Zip.new
   end
 
   def create
